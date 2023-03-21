@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  padding: 15px;
+  background-color: #07080c;
+  color: #ffffff;
+  font-family: Roboto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-style: italic;
+}
+p {
+  color: #cbd5e1;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.accelerate {
+  background-color: #0b69ff;
+  border-style: none;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 8px;
+}
+.brake {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.meter {
+  width: 50%;
+}
